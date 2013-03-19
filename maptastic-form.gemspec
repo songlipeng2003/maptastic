@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require 'lib/maptastic-form/version'
+require File.join(File.dirname(__FILE__), 'lib/maptastic-form/version')
  
 Gem::Specification.new do |s|
   s.name        = "maptastic-form"
