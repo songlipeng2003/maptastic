@@ -1,5 +1,5 @@
 module MaptasticForm
-  class SemanticFormBuilder < Formtastic::SemanticFormBuilder
+  class SemanticFormBuilder < Formtastic::FormBuilder
     
     def multi_input(*args)
       options = args.extract_options!
